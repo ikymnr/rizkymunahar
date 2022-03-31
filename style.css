@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color:#ffffff;
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 40px;
+}
+header nav ul li {
+    height: 20px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    border: 2px  #e74c3c;
+    color:rgb(68, 60, 60);
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    margin: 0 15px; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+ 
+}
+nav{
+    justify-content: space-around;
+    width:100%;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
